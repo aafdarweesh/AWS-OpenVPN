@@ -156,7 +156,12 @@ COMMIT
 #to make sure that will be no other connection only from 10.8.0.10 that will be accepted
 ```
 
-
+then saving 
+```
+iptables-restore < /etc/iptables/rules.v4
+dpkg-reconfigure iptables-persistent
+systemctl restart openvpn.service
+```
 ## Other files that must be edited
 firstly I disabled ufw (there is no need for it), you can write all settings using iptables
 
