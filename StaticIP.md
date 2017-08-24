@@ -16,7 +16,7 @@ nano /etc/openvpn/server.conf
 uncomment or add these lines
 ```
 client-config-dir ccd/
-route 10.8.0.0 255.255.255.248
+;route 10.8.0.0 255.255.255.248
 ```
 check that these lines are uncommented (remove '#' before it)
 ```
@@ -48,7 +48,7 @@ nano name
 
 in the name file write the following line
 ```
-ifconfig-push 10.8.0.10 255.255.255.0
+ifconfig-push 10.8.0.10 10.8.0.11
 ```
 the first ip is the ip for the client (static one) the other one is for the server itself
 
