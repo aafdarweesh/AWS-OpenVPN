@@ -225,7 +225,7 @@ Internet
 
 ## Authors
 
-* **Ahmed Darwish** - *Initial work* - [PurpleBooth](https://github.com/aafdarweesh)
+* **Ahmed Darwish** - *Initial work* - [Ahmed Darwish](https://github.com/aafdarweesh)
 
 ## License
 
