@@ -1,4 +1,5 @@
-#Accessing problem
+# Accessing problem
+
 
 For the problem of accessing a server even from outside the company (I will write the steps here and going to document them later)
 Server A (has a problem ‘an instance), Server B (another working instance
